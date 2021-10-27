@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/geocine/phaser3-rollup-typescript#readme"><img src="https://i.imgur.com/6lcIxDs.png" alt="header" width="600"/></a>
+  <a href="https://github.com/geocine/phaser3-rollup-typescript#readme"><img src="https://raw.githubusercontent.com/geocine/phaser3-learn-esepranto/master/public/assets/phaser3-logo.png" alt="header"/></a>
   <br>
-  Phaser 3 TypeScript Starter
+  Phaser 3 Learn Spanish
   <br>
 </h1>
 
-This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/), [Rollup](https://rollupjs.org) with ⚡️ lightning fast HMR through [Vite](https://vitejs.dev/).
+This is a game built with [Phaser 3](https://github.com/photonstorm/phaser), with [TypeScript](https://www.typescriptlang.org/), [Rollup](https://rollupjs.org) with ⚡️ lightning fast HMR through [Vite](https://vitejs.dev/).
 
 ## Available Commands
 
