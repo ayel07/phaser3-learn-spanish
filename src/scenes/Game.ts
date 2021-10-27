@@ -173,7 +173,7 @@ export default class Demo extends Phaser.Scene {
     this.correctSound = this.sound.add('correct');
     this.wrongSound = this.sound.add('wrong');
 
-    this.showNextQuestion(this.words[i].key);
+    this.showNextQuestion('');
   }
 
   processAnswer(userResponse: string) {
