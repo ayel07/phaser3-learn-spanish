@@ -146,7 +146,7 @@ export default class Demo extends Phaser.Scene {
         }
 
         // show next question
-        setTimeout(() => this.showNextQuestion(), 800);
+        setTimeout(() => this.showNextQuestion(this.words[i].key), 800);
       });
 
       // listen to the pointerover event
@@ -195,10 +195,15 @@ export default class Demo extends Phaser.Scene {
     }
   }
 
-  showNextQuestion() {
+  showNextQuestion(currentWord: string) {
     // select a random word
-    this.nextWord = Phaser.Math.RND.pick(this.words);
+    do
+    { 
+      this.nextWord = Phaser.Math.RND.pick(this.words);
+    }
+    while (this.nextWord.key === currentWord);
     
+
     // play a sound for that word
     this.nextWord.sound.play();
 
